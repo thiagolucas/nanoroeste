@@ -1,0 +1,232 @@
+
+/* class: col-md-4 */
+.navbar{
+	margin-bottom: 0px;
+}
+
+
+/* sections */
+section.estabelecimentos{
+	width: 100%;
+	padding: 50px 0px;
+}
+
+section.filtros{
+	padding-top: 50px;
+}
+
+h2.titulo{
+	border-bottom: 4px solid #ddd;
+}
+
+/* class: col-md-4 */
+.col-md-4{
+	color: #fff;
+}
+
+.col-md-4 h3{
+	padding: 5px 0px 0px 10px;
+}
+
+.col-md-4 span{
+	width: 10%;
+	padding: 5px 0px 0px 10px;
+}
+
+.col-md-4 p{
+	border-top: 1px solid #ddd;
+	padding: 5px 0px 0px 10px;
+}
+
+/* class: footer */
+#footer{
+	background-color: #f5f5f5;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 992px){
+	.carousel-caption h3, .carousel-caption p{
+		visibility: hidden;
+	}
+}
+
+
+/* class: box entretenimento */
+#entretenimento{
+	background-color: #ff9900;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#entretenimento a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box cosmeticos */
+#cosmeticos{
+	background-color: #339933;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#cosmeticos a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box moda */
+#moda{
+	background-color: #FF99FF;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#moda a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box utilidades */
+#utilidades{
+	background-color: #900090;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#utilidades a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box alimentacao */
+#alimentacao{
+	background-color: #00CC66;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#alimentacao a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box saude */
+#saude{
+	background-color: #7600EB;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#saude a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box escolas */
+#escolas{
+	background-color: #006666;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#escolas a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box igrejas */
+#igrejas{
+	background-color: #336699;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#igrejas a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box casa-decoração */
+#casa-decoracao{
+	background-color: #FF8080;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#casa-decoracao a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box construcao */
+#construcao{
+	background-color: #BB5D00;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#construcao a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: box veiculos */
+#veiculos{
+	background-color: #7D0000;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#veiculos a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
+
+/* class: servicos */
+#servicos{
+	background-color: #333399;
+	width: 100%;
+	border-radius: 4px;
+	padding-bottom: 20px;
+}
+
+#servicos a img{
+	margin: 0px;
+	border: 0px;
+	padding: 0px 1px;
+	width: 100%;
+}
