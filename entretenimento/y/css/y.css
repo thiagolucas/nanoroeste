@@ -1,0 +1,16 @@
+section.y-content{
+	padding: 50px 0px;
+}
+
+section.y-sobre{
+	padding: 50px 0px;
+}
+
+section.y-contatos{
+	padding: 30px 0px;
+	background-color: #ddd;
+}
+
+section.y-contatos div.container div.col-md-4{
+	color: #000;
+}
