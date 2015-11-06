@@ -50,7 +50,7 @@
               <ul class="dropdown-menu">
                 <li><a href="http://nanoroeste.com.br/entretenimento/">Entretenimento</a></li>
                 <!--li role="separator" class="divider"></li-->
-                <li><a href="#">Cosméticos</a></li>
+                <li><a href="http://nanoroeste.com.br/cosmeticos/">Cosméticos</a></li>
                 <!--li role="separator" class="divider"></li-->
                 <li><a href="#">Moda</a></li>
                 <!--li role="separator" class="divider"></li-->
@@ -62,7 +62,7 @@
                 <!--li role="separator" class="divider"></li-->
                 <li><a href="#">Escolas</a></li>
                 <!--li role="separator" class="divider"></li-->
-                <li><a href="#">Igrejas</a></li>
+                <li><a href="http://nanoroeste.com.br/igrejas/">Igrejas</a></li>
                 <!--li role="separator" class="divider"></li-->
                 <li><a href="#">Casa e Decoração</a></li>
                 <!--li role="separator" class="divider"></li-->
@@ -70,7 +70,7 @@
                 <!--li role="separator" class="divider"></li-->
                 <li><a href="#">Veículos</a></li>
                 <!--li role="separator" class="divider"></li-->
-                <li><a href="#">Prestação de Serviços</a></li>
+                <li><a href="http://nanoroeste.com.br/servicos/">Prestação de Serviços</a></li>
               </ul>
             </li>
             <!--li><a href="filtro.html">Filtro </a></li-->
@@ -144,54 +144,25 @@
       </a>
     </div>
 
-    <!-- filtro -->
-    <section class="filtros">
-      <div class="container" ng-app="myApp" ng-controller="ListaController">
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingOne">
-              <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Buscar Estabelecimento (filtro rápido)
-                </a>
-              </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-              <div class="panel-body">
-                <!--p>Filtrar Estabelecimento: <input type="text" ng-model="test"></p-->
-                <label for="exampleInputName2">Filtrar Estabelecimento: </label>
-                <input type="text" class="form-control" id="exampleInputName2" placeholder="Digite aqui..." type="text" ng-model="test">
+    <!-- megafone -->
+    <section class="megafone">
+      <div class="container">
+          <h1>Anuncie sua empresa ou negócio!</h1>
+          <img src="img/megafone/megafone.png" alt="..." class="img-circle">
+      </div>
 
-                <ul>
-                  <li ng-repeat="x in names | filter:test | orderBy:'produto'">
-                    {{ (x.atividade | uppercase) + ', ' + x.nome + ', ' + x.bairro}}
-                  </li>
-                </ul>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Empresas Cadastradas
+      </button>
 
-                <table class="table table-condensed">
-                  <thead>
-                    <tr>
-                      <!--th>ID</th-->
-                      <th>Atividade</th>
-                      <th>Loja</th>
-                      <th>Bairro</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr ng-repeat="loja in lojas | filter:test | orderBy:'produto'">
-                      <!--td>{{ loja.id }}</td-->
-                      <td><strong>{{ loja.atividade }}</strong></td>
-                      <td><a href="http://nanoroeste.com.br/{{ loja.link }}">{{ loja.nome }}</a></td>
-                      <td>{{ loja.bairro }}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
+    </section>
 
-        </div>
-        
+    <!-- megafone -->
+    <section class="chamada">
+      <div class="container-chamada">
+        <h1>Entre em contato conosco!</h1>
+        <h2>31 98886-6284</h2>  
       </div>
     </section>
 
@@ -202,74 +173,74 @@
         <div class="row">
           <div class="col-md-4">
             <div id="entretenimento">
-              <h3>Entretenimento</h3>
+              <a href="http://nanoroeste.com.br/entretenimento/"><h3>Entretenimento</h3></a>
               <a href="http://nanoroeste.com.br/entretenimento/"><img src="img/box/entretenimento.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="cosmeticos">
-              <h3>Cosméticos</h3>
-              <a href="#"><img src="img/box/cosmeticos.jpg"></a>
+              <a href="http://nanoroeste.com.br/cosmeticos/"><h3>Cosméticos</h3></a>
+              <a href="http://nanoroeste.com.br/cosmeticos/"><img src="img/box/cosmeticos.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="moda">
-              <h3>Moda</h3>
+              <a href="#"><h3>Moda</h3></a>
               <a href="#"><img src="img/box/moda.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="utilidades">
-              <h3>Utilidades</h3>
+              <a href="#"><h3>Utilidades</h3></a>
               <a href="#"><img src="img/box/utilidades.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="alimentacao">
-              <h3>Alimentação</h3>
+              <a href="#"><h3>Alimentação</h3></a>
               <a href="#"><img src="img/box/alimentacao.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="saude">
-              <h3>Saúde</h3>
+              <a href="#"><h3>Saúde</h3></a>
               <a href="#"><img src="img/box/saude.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="escolas">
-              <h3>Escolas</h3>
+              <a href="#"><h3>Escolas</h3></a>
               <a href="#"><img src="img/box/escolas.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="igrejas">
-              <h3>Igrejas</h3>
-              <a href="#"><img src="img/box/igrejas.jpg"></a>
+              <a href="http://nanoroeste.com.br/igrejas/"><h3>Igrejas</h3></a>
+              <a href="http://nanoroeste.com.br/igrejas/"><img src="img/box/igrejas.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="casa-decoracao">
-              <h3>Casa e Decoração</h3>
+              <a href="#"><h3>Casa e Decoração</h3></a>
               <a href="#"><img src="img/box/casa-decoracao.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="construcao">
-              <h3>Construção</h3>
+              <a href="#"><h3>Construção</h3></a>
               <a href="#"><img src="img/box/construcao.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="veiculos">
-              <h3>Veículos</h3>
+              <a href="#"><h3>Veículos</h3></a>
               <a href="#"><img src="img/box/veiculos.jpg"></a>
             </div>
           </div>
           <div class="col-md-4">
             <div id="servicos">
-              <h3>Prestação de serviços</h3>
-              <a href="#"><img src="img/box/servicos.jpg"></a>
+              <a href="http://nanoroeste.com.br/servicos/"><h3>Prestação de serviços</h3></a>
+              <a href="http://nanoroeste.com.br/servicos/"><img src="img/box/servicos.jpg"></a>
             </div>
           </div>
           
@@ -281,6 +252,53 @@
     <div id="footer">
       <div class="container">
         <p>Desenvolvido por <a target="_blank" href="http://aguiargerencial.com.br">Aguiar Gerencial.</a> Copyright &copy; 2015 - Todos os direitos reservados</p>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  ng-app="myApp" ng-controller="ListaController">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Empresas Cadastradas</h4>
+          </div>
+          
+          <div class="modal-body" ng-app="myApp" ng-controller="ListaController">            
+            <!--p>Filtrar Estabelecimento: <input type="text" ng-model="test"></p-->
+            <label for="exampleInputName2">Filtrar Estabelecimento: </label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Digite aqui..." type="text" ng-model="test">
+
+            <ul>
+              <li ng-repeat="x in names | filter:test | orderBy:'produto'">
+                {{ (x.atividade | uppercase) + ', ' + x.nome + ', ' + x.bairro}}
+              </li>
+            </ul>
+
+            <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <!--th>ID</th-->
+                  <th>Atividade</th>
+                  <th>Loja</th>
+                  <th>Bairro</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="loja in lojas | filter:test | orderBy:'produto'">
+                  <!--td>{{ loja.id }}</td-->
+                  <td><strong>{{ loja.atividade }}</strong></td>
+                  <td><a href="http://nanoroeste.com.br/{{ loja.link }}">{{ loja.nome }}</a></td>
+                  <td>{{ loja.bairro }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
       </div>
     </div>
 
