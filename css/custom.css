@@ -15,6 +15,35 @@ section.filtros{
 	padding-top: 50px;
 }
 
+section.megafone{
+	padding: 100px 0px;
+	text-align: center;
+}
+
+section.megafone img{
+	margin-top: 25px;
+}
+
+section.megafone button{
+	margin-top: 30px;
+}
+
+section.chamada{
+	background-image: url('../img/chamada/chamada.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.container-chamada{
+	padding: 200px 0px 170px 0px;
+	width: 100%;
+	background-image: url(../img/chamada/cinza.png);
+	background-repeat: repeat;
+}
+
 h2.titulo{
 	border-bottom: 4px solid #ddd;
 }
@@ -26,6 +55,14 @@ h2.titulo{
 
 .col-md-4 h3{
 	padding: 5px 0px 0px 10px;
+}
+
+.col-md-4 a h3{
+	color: #fff;
+}
+
+.col-md-4 a:hover{
+	text-decoration: none;
 }
 
 .col-md-4 span{
