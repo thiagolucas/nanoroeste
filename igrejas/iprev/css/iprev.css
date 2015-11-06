@@ -1,0 +1,37 @@
+
+section.iprev-sobre{
+	padding: 50px 0px;
+}
+
+section.iprev-contatos{
+	margin: 50px 0px;
+	padding: 30px 0px;
+	border-top: 1px solid #ddd;
+}
+
+.col-md-4 {
+	color: #ddd;
+}
+
+.col-md-4 h3{
+	padding-left: 0px;
+	color: #ddd;
+}
+
+.col-md-4 h3 span{
+	margin-right: 20px;
+}
+
+.col-md-4 p{
+	color: #000;
+}
+
+section.mapa{
+	margin: 0 auto;
+	padding: 0px;
+}
+
+section.mapa iframe{
+	width: 100%;
+	height: 300px;
+}
