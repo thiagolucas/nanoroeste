@@ -37,6 +37,10 @@ section.chamada{
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
+section.midia{
+	padding: 50px 0px;
+}
+
 .container-chamada{
 	padding: 200px 0px 170px 0px;
 	width: 100%;
